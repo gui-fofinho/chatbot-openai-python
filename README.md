@@ -39,3 +39,86 @@ No terminal, execute:
 
 ```bash
 pip install openai streamlit
+```
+## Configuração da API Key da OpenAI
+
+Por segurança, a API Key **NÃO fica no código**. Ela deve ser configurada como variável de ambiente.
+
+### Windows (Prompt de Comando ou PowerShell)
+
+1. Execute o comando:
+```bash
+setx OPENAI_API_KEY "sua-chave-aqui"
+```
+2. Após executar esse comando:
+```txt
+- Feche o terminal
+- Abra novamente
+```
+
+### Linux / macOS
+
+Execute o comando:
+```bash
+export OPENAI_API_KEY "sua-chave-aqui"
+```
+
+## Como Rodar o Projeto
+
+**IMPORTANTE:**
+Este projeto **não deve ser executado** com `python arquivo.py`.
+
+Use obrigatoriamente o comando do Streamlit:
+
+1. Execute o comando:
+```bash 
+streamlit run nome_do_arquivo.py
+```
+Exemplo:
+```bash 
+streamlit run app.py
+```
+2. Após isso:
+```txt
+- O navegador será aberto automaticamente
+- O chat estará pronto para uso
+```
+
+## Funcionalidades
+
+- Interface de chat interativa
+- Envio de mensagens para a IA
+- Respostas em tempo real
+- Histórico de mensagens mantido durante a sessão
+- Código simples e didático
+
+## Estrutura do Projeto
+```txt
+📦 Chat-IA-Streamlit
+ ┣ 📄 app.py
+ ┣ 📄 README.md
+ ```
+ ## Observações
+
+Este projeto tem fins **educacionais**.
+
+**Ideal para quem está aprendendo:**
+
+- Consumo de APIs
+- Streamlit
+- Integração com IA
+
+
+**Pode ser facilmente expandido com:**
+
+- Histórico salvo em arquivo
+- Interface personalizada
+- Novos modelos de IA
+
+## Autor
+
+Projeto desenvolvido por **Guilherme Matté**Durante o Curso da Hashtag Programação
+
+
+
+
