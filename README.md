@@ -80,8 +80,8 @@ streamlit run app.py
 
 Após isso:
 ```txt
-o navegador será aberto automaticamente
-o chat estará pronto para uso
+O navegador será aberto automaticamente
+O chat estará pronto para uso
 ```
 
 🧠 Funcionalidades
@@ -117,13 +117,13 @@ Streamlit
 Integração com IA
 ```
 Pode ser facilmente expandido com:
+```txt
+Histórico salvo em arquivo
 
-histórico salvo em arquivo
+Interface personalizada
 
-interface personalizada
-
-novos modelos de IA
-
+Novos modelos de IA
+```
 ##👨‍💻 Autor
    Projeto desenvolvido por Guilherme Matté
     Durante o Curso da Hashtag Programação
