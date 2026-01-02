@@ -4,9 +4,9 @@ Este projeto consiste em um **Chat de Inteligência Artificial** desenvolvido em
 
 O projeto foi desenvolvido durante o **Curso da Hashtag Programação**, com foco em aprendizado prático de:
 
-- consumo de APIs  
-- criação de interfaces simples  
-- gerenciamento de estado (histórico do chat)  
+- Consumo de APIs  
+- Criação de interfaces simples  
+- Gerenciamento de estado (histórico do chat)  
 
 O **Streamlit** é responsável tanto pelo **front-end** quanto pelo **back-end**, tornando o projeto simples de rodar e entender.
 
@@ -51,8 +51,8 @@ setx OPENAI_API_KEY "sua-chave-aqui"
 
 Após executar esse comando:
 ```txt
-1.feche o terminal
-2.abra novamente
+1. Feche o terminal
+2. Abra novamente
 ```
 
 ▶️ Linux / macOS
