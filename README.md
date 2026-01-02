@@ -117,7 +117,8 @@ Este projeto tem fins **educacionais**.
 
 ## Autor
 
-Projeto desenvolvido por **Guilherme Matté**Durante o Curso da Hashtag Programação
+Projeto desenvolvido por **Guilherme Matté**,
+Durante o Curso da Hashtag Programação
 
 
 
