@@ -3,6 +3,7 @@
 Este projeto consiste em um **Chat de Inteligência Artificial** desenvolvido em **Python**, utilizando a **API da OpenAI** e a biblioteca **Streamlit** para a interface web.
 
 O projeto foi desenvolvido durante o **Curso da Hashtag Programação**, com foco em aprendizado prático de:
+
 - consumo de APIs  
 - criação de interfaces simples  
 - gerenciamento de estado (histórico do chat)  
@@ -35,24 +36,27 @@ No terminal, execute:
 
 ```bash
 pip install openai streamlit
+
 🔑 Configuração da API Key da OpenAI
+
 Por segurança, a API Key NÃO fica no código.
 Ela deve ser configurada como variável de ambiente.
 
 ▶️ Windows (Prompt de Comando ou PowerShell)
+
 bash
-Copiar código
+
 setx OPENAI_API_KEY "sua-chave-aqui"
+
 Após executar esse comando:
-
-feche o terminal
-
-abra novamente
+ -feche o terminal
+ -abra novamente
 
 ▶️ Linux / macOS
 bash
-Copiar código
+
 export OPENAI_API_KEY="sua-chave-aqui"
+
 ▶️ Como rodar o projeto
 ⚠️ IMPORTANTE:
 Este projeto não deve ser executado com python arquivo.py.
@@ -60,13 +64,15 @@ Este projeto não deve ser executado com python arquivo.py.
 Use obrigatoriamente o comando do Streamlit:
 
 bash
-Copiar código
+
 streamlit run nome_do_arquivo.py
+
 Exemplo:
 
 bash
-Copiar código
+
 streamlit run app.py
+
 Após isso:
 
 o navegador será aberto automaticamente
@@ -85,17 +91,14 @@ Histórico de mensagens mantido durante a sessão
 Código simples e didático
 
 📁 Estrutura do projeto (exemplo)
-text
-Copiar código
+
 📦 Chat-IA-Streamlit
  ┣ 📄 app.py
  ┣ 📄 README.md
 🛠 Tecnologias utilizadas
-Python
-
-Streamlit
-
-OpenAI API
+   Python
+   Streamlit
+   OpenAI API
 
 📚 Observações
 Este projeto tem fins educacionais
@@ -117,5 +120,5 @@ interface personalizada
 novos modelos de IA
 
 👨‍💻 Autor
-Projeto desenvolvido por Guilherme Matté
-Durante o Curso da Hashtag Programação
+   Projeto desenvolvido por Guilherme Matté
+    Durante o Curso da Hashtag Programação
